@@ -24,6 +24,7 @@ struct _noeud * ville_arrivee;
 
 bool verif_ville(char ville_depart[]);
 void rentrer_ville();
+noeud liste_connexions(char ville_depart[]);
 
 
 /*
